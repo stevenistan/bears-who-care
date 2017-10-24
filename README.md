@@ -1,24 +1,35 @@
-# README
+# bears-who-care
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Team Members
+Frank Lin, Steven Tan
 
-Things you may want to cover:
+## Idea
+A web application that aims to destigmatize mental illnesses by providing a platform for Berkeley students to anonymously read and share about their mental health experiences
 
-* Ruby version
+## Demo Link
 
-* System dependencies
+[bears-who-care](insert link here)
 
-* Configuration
+## Division of Labor
+- Frank Lin:
+- Steven Tan:
 
-* Database creation
+## Models and Description
+#### Model 1
+- Insert description here
 
-* Database initialization
+#### Model 2
+- Insert description here
 
-* How to run the test suite
+#### Model 3
+- Insert description here
 
-* Services (job queues, cache servers, search engines, etc.)
+## Features
+#### Feature 1
+- Insert feature description here
 
-* Deployment instructions
+#### Feature 2
+- Insert feature description here
 
-* ...
+#### Feature 3
+- Insert feature description here
