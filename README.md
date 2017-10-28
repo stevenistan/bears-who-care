@@ -11,25 +11,31 @@ A web application that aims to destigmatize mental illnesses by providing a plat
 [bears-who-care](insert link here)
 
 ## Division of Labor
-- Frank Lin:
-- Steven Tan:
+- Frank Lin: navbar
+- Steven Tan: devise_setup, posts, comments
 
 ## Models and Description
-#### Model 1
-- Insert description here
+#### User
+- Required for sign-in
 
-#### Model 2
-- Insert description here
+#### Post
+- Displays user's content
 
-#### Model 3
-- Insert description here
+#### Comment
+- Responses to a post
+
+### Tag (in progress)
+- Used for filtering posts
 
 ## Features
-#### Feature 1
-- Insert feature description here
+#### Authentication
+- Using devise, users can sign-up/sign-in for an account
 
-#### Feature 2
-- Insert feature description here
+#### Creating posts
+- Users can share about their mental health experiences or seek advice
 
-#### Feature 3
-- Insert feature description here
+#### Creating comments
+- Users can comment on posts to support other users
+
+### Filtering content
+- Filter posts by tags
