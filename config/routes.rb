@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root to: 'posts#index'
   
   get '/posts/new' => 'posts#new'
+  get '/posts' => 'posts#index'
 
   post 'posts' => 'posts#create'
   
