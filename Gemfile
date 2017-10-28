@@ -59,3 +59,4 @@ gem 'devise-bootstrap-views'
 #bootstrap
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'autoprefixer-rails'
+gem 'jquery-rails', "~> 2.3.0"
