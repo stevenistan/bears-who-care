@@ -24,7 +24,7 @@ A web application that aims to destigmatize mental illnesses by providing a plat
 #### Comment
 - Responses to a post
 
-### Tag (in progress)
+#### Tag (in progress)
 - Used for filtering posts
 
 ## Features
@@ -37,5 +37,5 @@ A web application that aims to destigmatize mental illnesses by providing a plat
 #### Creating comments
 - Users can comment on posts to support other users
 
-### Filtering content
+#### Filtering content
 - Filter posts by tags
