@@ -8,7 +8,7 @@ A web application that aims to destigmatize mental illnesses by providing a plat
 
 ## Demo Link
 
-[bears-who-care](insert link here)
+[bears-who-care](https://bearswhocare.herokuapp.com/)
 
 ## Division of Labor
 - Frank Lin: navbar
