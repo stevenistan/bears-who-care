@@ -1,0 +1,11 @@
+<div class="body">
+	<div class="posts">
+	  <div class="container">
+			<div class="post"> 
+	  			<p class="content"><%= @post.content %></p> 
+	  			<p class="time"><%= @post.created_at %></p>
+			</div>
+			<%= link_to 'New Comment', "comments/new" %>
+	  </div>
+	</div>
+</div>
