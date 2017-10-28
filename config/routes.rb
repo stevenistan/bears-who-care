@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  """
+  resources :posts do
+  	resources :comments
+  end
+  """
+
   devise_for :users
   
   root to: 'posts#index'
@@ -9,7 +15,7 @@ Rails.application.routes.draw do
   get '/posts/:id' => 'posts#show', as: :post
 
   get '/posts/comments/new' => 'comments#new'
-  #get '/comments' => 'posts#show'
+  get '/comments' => 'posts#index'
 
   post 'posts' => 'posts#create'
   post 'comments' => 'comments#create'
