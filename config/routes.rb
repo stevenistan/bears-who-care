@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   get '/posts' => 'posts#index'
   get '/posts/:id' => 'posts#show', as: :post
 
+  get '/posts/comments/new' => 'comments#new'
+  #get '/comments' => 'posts#show'
+
   post 'posts' => 'posts#create'
+  post 'comments' => 'comments#create'
   
 end
